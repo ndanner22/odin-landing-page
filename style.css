@@ -15,14 +15,12 @@
 }
 
 .section-1,
-.section-2,
-.section-3 {
+.section-2 {
   flex: 1;
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-direction: column;
-  border: solid;
 }
 
 .logo {
@@ -65,21 +63,12 @@ button {
 }
 
 .footer {
-  border: solid;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #1f2937;
+  color: white;
 }
-
-/*.section,
-.section-2 {
-  flex: 1;
-  width: 100%;
-  border: solid;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}*/
 
 .section-2 {
   background-color: #e5e7eb;
@@ -125,4 +114,58 @@ button {
 
 .section-2-author {
   align-self: flex-end;
+}
+
+.petition-container {
+  background-color: rgb(35, 146, 244);
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 8px;
+  align-items: center;
+  width: 60%;
+}
+
+.petition-left,
+.petition-right {
+  display: flex;
+}
+
+.petition-left {
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section-3 {
+  padding: 30px;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.petition-button {
+  background-color: rgb(35, 146, 244);
+  padding: 0 10px;
+  color: white;
+  border: solid;
+}
+
+.call-to-action,
+.call-to-action-words {
+  margin: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white;
+}
+
+.call-to-action {
+  font-weight: 700;
+  font-size: 28px;
+}
+
+.call-to-action-words {
+  font-size: 20px;
+}
+
+.inner-footer {
+  padding: 10px;
 }
