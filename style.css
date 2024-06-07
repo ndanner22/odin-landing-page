@@ -10,8 +10,9 @@
   align-items: space-between;
   justify-content: space-between;
   background-color: #1f2937;
-  padding: 24px;
+  padding: 24px 250px;
   gap: 80px;
+  opacity: 0.95;
 }
 
 .section-1,
@@ -50,7 +51,7 @@
 
 li {
   color: white;
-  font-size: 10px;
+  font-size: 14px;
 }
 
 button {
@@ -74,6 +75,7 @@ button {
   background-color: #e5e7eb;
   margin: 0;
   padding: 5% 15%;
+  opacity: 0.95;
 }
 
 .card-container {
@@ -108,7 +110,7 @@ button {
 
 .section-2-quote {
   max-width: 550;
-  font-size: 26px;
+  font-size: 36px;
   font-family: cursive;
 }
 
@@ -124,6 +126,7 @@ button {
   border-radius: 8px;
   align-items: center;
   width: 60%;
+  opacity: 0.95;
 }
 
 .petition-left,
@@ -137,7 +140,7 @@ button {
 }
 
 .section-3 {
-  padding: 30px;
+  padding: 50px;
   flex: 1;
   display: flex;
   justify-content: center;
@@ -168,4 +171,12 @@ button {
 
 .inner-footer {
   padding: 10px;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+.header-body {
+  font-size: 18px;
 }
