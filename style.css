@@ -13,10 +13,12 @@
   gap: 80px;
 }
 
-.main-body {
+.section-1,
+.section-2,
+.section-3 {
   flex: 1;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   flex-direction: column;
   border: solid;
@@ -80,4 +82,34 @@ button {
 
 .section-2 {
   background-color: #e5e7eb;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  min-width: 175px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+.card-image {
+  width: 125px;
+  height: 125px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.section-1-title {
+  font-weight: 800;
+  font-size: 32px;
 }
